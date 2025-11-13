@@ -5,7 +5,7 @@
  * Date: 11/13/2025
  */
 
- 
+
 import java.io.IOException;
 import java.net.URL;
 import java.util.Scanner;
@@ -33,7 +33,7 @@ public class ScoresProcessor {
             while (input.hasNext()) {
                 double score = input.nextDouble(); // read a score
                 total += score; // add it to total
-                count++;        // increment count of scores
+                count++; // increment count of scores
             }
 
             input.close(); // close the scanner
